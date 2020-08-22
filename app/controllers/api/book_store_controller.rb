@@ -26,4 +26,10 @@ class Api::BookStoreController < ApplicationController
 
     api_response(200, 'success', result)
   end
+
+  def transaction_volume
+    result = Store.search_trans_volume(params[:rank_type])
+
+    api_response(200, 'success', result)
+  end
 end

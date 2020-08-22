@@ -49,11 +49,13 @@ class Store < ApplicationRecord
         end
 
         if ActiveModel::Type::Boolean.new.cast(more_or_less) == true && count >= hours.to_i
-          result << store 
+          result << store
+          break
         end
         
         if ActiveModel::Type::Boolean.new.cast(more_or_less) == false && count < hours.to_i
-          result << store  
+          result << store
+          break  
         end
       end
     end
@@ -87,5 +89,38 @@ class Store < ApplicationRecord
 
   def self.search_name(name)
     return Store.where("name ILIKE ?", "%#{name}%").order("weights DESC")
+  end
+
+  def self.search_trans_volume(rank_type)
+
+    result = nil
+    count = 0 
+    case rank_type
+    when 'amount'
+      Store.all.each do |store|
+        total = store.transcations.count
+
+        if total > count
+          result = store
+          count = total
+        end
+      end
+      
+      return result
+    when 'dollar'
+      Store.all.each do |store|
+        total = 0
+        store.transcations.each do |tran|
+          total += tran[:amount]
+        end
+
+        if total > count
+          result = store
+          count = total
+        end
+      end
+
+      return result
+    end
   end
 end
