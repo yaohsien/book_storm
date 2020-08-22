@@ -15,5 +15,9 @@ Rails.application.routes.draw do
       get 'openhours'
       get 'amount'
     end
+
+    namespace :book do
+      get 'price'
+    end
   end
 end
