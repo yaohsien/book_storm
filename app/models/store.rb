@@ -84,4 +84,8 @@ class Store < ApplicationRecord
     end
     result
   end
+
+  def self.search_name(name)
+    return Store.where("name ILIKE ?", "%#{name}%").order("weights DESC")
+  end
 end

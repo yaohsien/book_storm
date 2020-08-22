@@ -20,4 +20,10 @@ class Api::BookStoreController < ApplicationController
     
     api_response(200, 'success', result)
   end
+
+  def name
+    result = Store.search_name(params[:name])
+
+    api_response(200, 'success', result)
+  end
 end
