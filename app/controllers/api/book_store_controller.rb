@@ -14,4 +14,10 @@ class Api::BookStoreController < ApplicationController
 
     api_response(200, 'success', result)
   end
+
+  def amount
+    result = Store.search_amounts(params[:books_amount], params[:more_or_less], params[:price_min], params[:price_max])
+    
+    api_response(200, 'success', result)
+  end
 end

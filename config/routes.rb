@@ -13,6 +13,7 @@ Rails.application.routes.draw do
       get 'hello'
       get 'time'
       get 'openhours'
+      get 'amount'
     end
   end
 end

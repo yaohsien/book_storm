@@ -23,7 +23,7 @@ class Store < ApplicationRecord
     result
   end
 
-  def self.seach_openhours(hours, more_or_less, time_span='day')
+  def self.seach_openhours(hours, more_or_less = true, time_span='day')
     result = []
 
     Store.all.each do |store|
@@ -54,6 +54,31 @@ class Store < ApplicationRecord
         
         if ActiveModel::Type::Boolean.new.cast(more_or_less) == false && count < hours.to_i
           result << store  
+        end
+      end
+    end
+    result
+  end
+
+  def self.search_amounts(books_amount, more_or_less = true, price_min, price_max)
+    result = []
+
+    Store.all.each do |store|
+      target_count = store.books.count
+
+      if ActiveModel::Type::Boolean.new.cast(more_or_less) == true
+        if price_min.present? && price_max.present?
+          target_count = store.books.where("price >= ? AND price <= ?", price_min.to_i, price_max.to_i).count
+          result << store if target_count >= books_amount.to_i
+        else
+          result << store if target_count >= books_amount.to_i
+        end
+      else
+        if price_min.present? && price_max.present?
+          target_count = store.books.where("price >= ? AND price <= ?", price_min.to_i, price_max.to_i).count
+          result << store if target_count < books_amount.to_i
+        else
+          result << store if target_count < books_amount.to_i
         end
       end
     end
