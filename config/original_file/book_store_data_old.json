@@ -1,0 +1,894 @@
+[{
+  "cash_balance": 4483.84,
+  "books": [{
+      "book_name": "Ruby: The Autobiography",
+      "price": 13.88
+    },
+    {
+      "book_name": "Ruby!",
+      "price": 10.64
+    },
+    {
+      "book_name": "Ruby, Ruby: A Murder Mystery",
+      "price": 12.45
+    },
+    {
+      "book_name": "Ruby: Unexpected Love... (ruby Trilogy)",
+      "price": 10.59
+    },
+    {
+      "book_name": "Where's Ruby? (max And Ruby)",
+      "price": 13.5
+    },
+    {
+      "book_name": "Ruby: Learn Ruby In 24 Hours Or Less - A Beginner's Guide To Learning Ruby Programming Now (ruby, Ruby Programming, Ruby Course)",
+      "price": 13.5
+    },
+    {
+      "book_name": "Refactoring: Ruby Edition: Ruby Edition (addison-wesley Professional Ruby Series)",
+      "price": 12.56
+    },
+    {
+      "book_name": "Mama Ruby (a Mama Ruby Novel)",
+      "price": 12.38
+    },
+    {
+      "book_name": "Ruby Red (the Ruby Red Trilogy)",
+      "price": 11.64
+    },
+    {
+      "book_name": "Metaprogramming Ruby 2: Program Like The Ruby Pros (facets Of Ruby)",
+      "price": 10.51
+    },
+    {
+      "book_name": "Ruby River",
+      "price": 10.2
+    },
+    {
+      "book_name": "Ruby Holler",
+      "price": 14.0
+    },
+    {
+      "book_name": "Ruby Phrasebook",
+      "price": 11.79
+    },
+    {
+      "book_name": "Sandy Ruby",
+      "price": 10.15
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "14:30",
+      "close": "20:00"
+    },
+    {
+      "day": "Fri",
+      "open": "14:30",
+      "close": "20:00"
+    },
+    {
+      "day": "Tues",
+      "open": "11:00",
+      "close": "14:00"
+    },
+    {
+      "day": "Weds",
+      "open": "13:15",
+      "close": "23:59"
+    },
+    {
+      "day": "Thurs",
+      "open": "00:00",
+      "close": "3:15"
+    },
+    {
+      "day": "Thurs",
+      "open": "00:00",
+      "close": "3:15"
+    },
+    {
+      "day": "Thurs",
+      "open": "10:00",
+      "close": "23:59"
+    },
+    {
+      "day": "Thurs",
+      "open": "10:00",
+      "close": "23:59"
+    },
+    {
+      "day": "Fri",
+      "open": "00:00",
+      "close": "3:15"
+    },
+    {
+      "day": "Sat",
+      "open": "5:00",
+      "close": "11:30"
+    },
+    {
+      "day": "Sat",
+      "open": "5:00",
+      "close": "11:30"
+    },
+    {
+      "day": "Sun",
+      "open": "10:45",
+      "close": "17:00"
+    }
+  ],
+  "store_name": "Look Inna Book"
+},
+{
+  "cash_balance": 4882.81,
+  "books": [{
+      "book_name": "Elixir Saved (elixir Chronicles)",
+      "price": 13.57
+    },
+    {
+      "book_name": "Elixir",
+      "price": 10.15
+    },
+    {
+      "book_name": "Elixir: A History Of Water And Humankind",
+      "price": 10.25
+    },
+    {
+      "book_name": "Elixir: A Covenant Novella",
+      "price": 11.15
+    },
+    {
+      "book_name": "The Elixir",
+      "price": 10.25
+    },
+    {
+      "book_name": "Elixir Institutorum",
+      "price": 10.35
+    },
+    {
+      "book_name": "Elixir Cookbook",
+      "price": 12.34
+    },
+    {
+      "book_name": "Elixir Refused",
+      "price": 11.09
+    },
+    {
+      "book_name": "Devils Elixir",
+      "price": 12.0
+    },
+    {
+      "book_name": "Dr.excite/elixir/",
+      "price": 13.86
+    },
+    {
+      "book_name": "Jorge Galindo: Elixir",
+      "price": 10.25
+    },
+    {
+      "book_name": "Devoted (elixir)",
+      "price": 10.1
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "11:45",
+      "close": "16:45"
+    },
+    {
+      "day": "Weds",
+      "open": "11:45",
+      "close": "16:45"
+    },
+    {
+      "day": "Tues",
+      "open": "7:45",
+      "close": "23:59"
+    },
+    {
+      "day": "Weds",
+      "open": "00:00",
+      "close": "2:00"
+    },
+    {
+      "day": "Thurs",
+      "open": "17:45",
+      "close": "23:59"
+    },
+    {
+      "day": "Fri",
+      "open": "6:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Sun",
+      "open": "6:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Sat",
+      "open": "10:15",
+      "close": "21:00"
+    }
+ ],
+  "store_name": "The Book Basement"
+},
+{
+  "cash_balance": 5677.81,
+  "books": [{
+      "book_name": "Mastering Elixir",
+      "price": 11.57
+    },
+    {
+      "book_name": "Fatal Elixir",
+      "price": 9.15
+    },
+    {
+      "book_name": "Portafolio Elixir",
+      "price": 12.25
+    },
+    {
+      "book_name": "Learning Elixir",
+      "price": 6.15
+    },
+    {
+      "book_name": "Golden Elixir",
+      "price": 9.25
+    },
+    {
+      "book_name": "Poet's Elixir",
+      "price": 8.35
+    },
+    {
+      "book_name": "Elixir Cookbook",
+      "price": 9.34
+    },
+    {
+      "book_name": "Elixir Refused",
+      "price": 11.09
+    },
+    {
+      "book_name": "Devils Elixir",
+      "price": 8.0
+    },
+    {
+      "book_name": "Dr.excite/elixir/",
+      "price": 13.86
+    },
+    {
+      "book_name": "Jorge Galindo: Elixir",
+      "price": 9.25
+    },
+    {
+      "book_name": "Devoted (elixir)",
+      "price": 15.1
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "11:45",
+      "close": "16:45"
+    }, 
+    {
+      "day": "Tues",
+      "open": "7:45",
+      "close": "14:00"
+    }, 
+    {
+      "day": "Thurs",
+      "open": "17:45",
+      "close": "23:59"
+    }, 
+    {
+      "day": "Wed",
+      "open": "7:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Fri",
+      "open": "7:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Sun",
+      "open": "7:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Sat",
+      "open": "10:15",
+      "close": "21:00"
+    }
+  ],
+  "store_name": "A Whole New World Bookstore"
+},
+{
+  "cash_balance": 3478.03,
+  "books": [{
+      "book_name": "Swift",
+      "price": 15.75
+    },
+    {
+      "book_name": "Cypseloides: Black Swift, Chestnut-collared Swift, White-chinned Swift, Great Dusky Swift, White-fronted Swift, Rothschild's Swift,",
+      "price": 10.35
+    },
+    {
+      "book_name": "Swift: Gulliver's Travels and Other Writings",
+      "price": 12.0
+    },
+    {
+      "book_name": "Swift: The Mystery of His Life and Love",
+      "price": 12.06
+    },
+    {
+      "book_name": "Pro Swift - Swift 4.1 Edition",
+      "price": 13.95
+    },
+    {
+      "book_name": "Functional Swift: Updated For Swift 4",
+      "price": 13.64
+    },
+    {
+      "book_name": "Beginning Xcode: Swift Edition: Swift Edition",
+      "price": 13.95
+    },
+    {
+      "book_name": "Swift Run (Swift Investigations Series #3)",
+      "price": 10.75
+    },
+    {
+      "book_name": "Swift Edge A Swift Investigation Mystery",
+      "price": 13.08
+    },
+    {
+      "book_name": "Swift Essentials",
+      "price": 13.26
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "13:45",
+      "close": "15:00"
+    }, 
+    {
+      "day": "Tues",
+      "open": "8:45",
+      "close": "23:59"
+    }, 
+    {
+      "day": "Weds",
+      "open": "00:00",
+      "close": "2:15"
+    },
+    {
+      "day": "Weds",
+      "open": "6:45",
+      "close": "10:45"
+    }, 
+    {
+      "day": "Thurs",
+      "open": "5:45",
+      "close": "11:15"
+    },
+    {
+      "day": "Sat",
+      "open": "5:45",
+      "close": "11:15"
+    },
+    {
+      "day": "Fri",
+      "open": "15:45",
+      "close": "23:59"
+    },
+    {
+      "day": "Sat",
+      "open": "00:00",
+      "close": "2:30"
+    },
+    {
+      "day": "Sun",
+      "open": "17:00",
+      "close": "23:59"
+    },
+    {
+      "day": "Mon",
+      "open": "00:00",
+      "close": "3:45"
+    }
+  ],
+  "store_name": "Downtown Books"
+},
+{
+  "cash_balance": 960.2,
+  "books": [{
+      "book_name": "Ios 11 Programming Fundamentals With Swift: Swift, Xcode, And Cocoa Basics",
+      "price": 10.25
+    },
+    {
+      "book_name": "Ios 12 Programming Fundamentals With Swift: Swift, Xcode, And Cocoa Basics",
+      "price": 12.42
+    },
+    {
+      "book_name": "Ios 13 Programming Fundamentals With Swift: Swift, Xcode, And Cocoa Basics",
+      "price": 10.5
+    },
+    {
+      "book_name": "Beginner's Guide To Ios 12 App Development Using Swift 4: Xcode, Swift And App Design Fundamentals",
+      "price": 13.0
+    },
+    {
+      "book_name": "Beginning Xcode",
+      "price": 11.14
+    },
+    {
+      "book_name": "Xcode 3 Unleashed",
+      "price": 10.17
+    },
+    {
+      "book_name": "Xcode 4 Cookbook",
+      "price": 10.4
+    },
+    {
+      "book_name": "Learning Xcode 8",
+      "price": 10.75
+    },
+    {
+      "book_name": "Beginning Ios 13 & Swift App Development: Develop Ios Apps With Xcode 11, Swift 5, Core Ml, Arkit And More",
+      "price": 13.89
+    },
+    {
+      "book_name": "Mastering Ios 12 Programming: Build Professional-grade Ios Applications With Swift And Xcode 10, 3rd Edition",
+      "price": 10.24
+    },
+    {
+      "book_name": "Beginning Ios Storyboarding: Using Xcode",
+      "price": 12.3
+    },
+    {
+      "book_name": "Xcode 5 Start To Finish",
+      "price": 12.2
+    },
+    {
+      "book_name": "Ios 13 Programming For Beginners: Get Started With Building Ios Apps With Swift 5 And Xcode 11, 4th Edition",
+      "price": 12.82
+    },
+    {
+      "book_name": "Taylor Swift",
+      "price": 10.05
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "17:00",
+      "close": "22:30"
+    },
+    {
+      "day": "Tues",
+      "open": "17:00",
+      "close": "18:45"
+    }, 
+    {
+      "day": "Sat",
+      "open": "17:00",
+      "close": "18:45"
+    }, 
+    {
+      "day": "Weds",
+      "open": "15:15",
+      "close": "23:59"
+    },
+    {
+      "day": "Thurs",
+      "open": "15:15",
+      "close": "23:59"
+    },
+    {
+      "day": "Thurs",
+      "open": "00:00",
+      "close": "3:45"
+    },
+    {
+      "day": "Fri",
+      "open": "00:00",
+      "close": "3:45"
+    },
+    {
+      "day": "Fri",
+      "open": "9:15",
+      "close": "10:45"
+    },
+    {
+      "day": "Sun",
+      "open": "10:45",
+      "close": "15:45"
+    }
+  ],
+  "": "Uptown Books"
+},
+{
+  "cash_balance": 4841.8,
+  "books": [{
+      "book_name": "Ruby For Rails: Ruby Techniques For Rails Developers",
+      "price": 10.75
+    },
+    {
+      "book_name": "Rails Antipatterns: Best Practice Ruby On Rails Refactoring",
+      "price": 11.16
+    },
+    {
+      "book_name": "Ruby On Rails Video: Learn Rails By Example",
+      "price": 10.29
+    },
+    {
+      "book_name": "Ruby On Rails Essential Training",
+      "price": 11.58
+    },
+    {
+      "book_name": "Ruby Beginner's Crash Course: Ruby For Beginner's Guide To Ruby Programming, Ruby On Rails & Rails Programming (ruby, Operating Systems, Programming) (volume 1)",
+      "price": 10.26
+    },
+    {
+      "book_name": "Ruby On Rails Tutorial: Learn Web Development With Rails",
+      "price": 11.25
+    },
+    {
+      "book_name": "Head First Rails: A Learner's Companion To Ruby On Rails",
+      "price": 10.09
+    },
+    {
+      "book_name": "Ruby On Rails Tutorial: Learn Web Development With Rails (2nd Edition) (addison-wesley Professional Ruby)",
+      "price": 12.79
+    },
+    {
+      "book_name": "Hacking With Ruby: Ruby And Rails For The Real World",
+      "price": 12.53
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Tues",
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Weds",
+      "open": "11:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Thurs",
+      "open": "6:00",
+      "close": "21:00"
+    },
+    {
+      "day": "Fri",
+      "open": "19:00",
+      "close": "23:59"
+    },
+    {
+      "day": "Sat",
+      "open": "00:00",
+      "close": "7:00"
+    },
+    {
+      "day": "Sat",
+      "open": "14:45",
+      "close": "23:59"
+    },
+    {
+      "day": "Sun",
+      "open": "00:00",
+      "close": "1:30"
+    },
+    {
+      "day": "Sun",
+      "open": "7:00",
+      "close": "16:15"
+    }
+  ],
+  "": "Turn the Page"
+},
+{
+  "cash_balance": 3211.97,
+  "books": [{
+      "book_name": "The Phenix: A Collection Of Old And Rare Fragments (1835)",
+      "price": 11.51
+    },
+    {
+      "book_name": "Phenix: Roman",
+      "price": 10.94
+    },
+    {
+      "book_name": "Phenix N40 Fantasy",
+      "price": 13.94
+    },
+    {
+      "book_name": "Le Phenix Exultant",
+      "price": 11.25
+    },
+    {
+      "book_name": "Forêts (inactif- Phenix)",
+      "price": 11.97
+    },
+    {
+      "book_name": "Tel Un Phenix",
+      "price": 10.06
+    },
+    {
+      "book_name": "Le Tombeau Du Phenix",
+      "price": 11.48
+    }
+  ],
+  "opening_hours": "Mon 6 am - 8:30 pm / Tues - Weds 6:45 am - 3 pm / Thurs 6:15 am - 8:30 am / Fri 4 pm - 10:15 pm / Sat 1:30 pm - 11:45 pm / Sun 6:30 am - 8:15 am",
+  "": "Author Attic"
+},
+{
+  "cash_balance": 4260.93,
+  "books": [{
+      "book_name": "Go For Gin",
+      "price": 10.5
+    },
+    {
+      "book_name": "Gin & Gin Drinks (Quamut)",
+      "price": 12.44
+    },
+    {
+      "book_name": "Gin Rummy: Gin Lovers Playing Cards",
+      "price": 10.55
+    },
+    {
+      "book_name": "Sister Gin",
+      "price": 10.45
+    },
+    {
+      "book_name": "Gin Wigmore: Gin Wigmore Albums, Gin Wigmore Songs, Holy Smoke, Brother, Hey Ho, Oh My, I Do, Extended Play",
+      "price": 10.6
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "16:30",
+      "close": "23:15"
+    },
+    {
+      "day": "Tues",
+      "open": "15:30",
+      "close": "17:00"
+    },
+    {
+      "day": "Sat",
+      "open": "15:30",
+      "close": "17:00"
+    },
+    {
+      "day": "Weds",
+      "open": "5:15",
+      "close": "21:30"
+    },
+    {
+      "day": "Thurs",
+      "open": "13:00",
+      "close": "14:15"
+    },
+    {
+      "day": "Fri",
+      "open": "6:45",
+      "close": "7:45"
+    },
+    {
+      "day": "Sun",
+      "open": "8:30",
+      "close": "23:59"
+    },
+    {
+      "day": "Mon",
+      "open": "00:00",
+      "close": "2:00"
+    }
+  ],
+  "": "Undercover Books"
+},
+{
+  "cash_balance": 416.69,
+  "books": [{
+      "book_name": "Cloud Native Programming With Golang",
+      "price": 10.75
+    },
+    {
+      "book_name": "Hands-on Software Architecture With Golang",
+      "price": 13.0
+    },
+    {
+      "book_name": "Learn Data Structures And Algorithms With Golang",
+      "price": 11.1
+    },
+    {
+      "book_name": "Sams Teach Yourself Go In 24 Hours: Next Generation Systems Programming With Golang: Next Generation Systems Programming With Golang",
+      "price": 10.15
+    },
+    {
+      "book_name": "Hands-on Software Architecture With Golang: Design And Architect Highly Scalable And Robust Applications Using Go",
+      "price": 10.1
+    },
+    {
+      "book_name": "Mastering Go: Create Golang Production Applications Using Network Libraries, Concurrency, And Advanced Go Data Structures",
+      "price": 12.98
+    },
+    {
+      "book_name": "Cloud Native Programming With Golang: Develop Microservice-based High Performance Web Apps For The Cloud With Go",
+      "price": 11.85
+    },
+    {
+      "book_name": "Building Restful Web Services With Go: Learn How To Build Powerful Restful Apis With Golang That Scale Gracefully",
+      "price": 16.0
+    },
+    {
+      "book_name": "Computer Programming Python, Machine Learning, Javascript Swift, Golang: A Step By Step How To Guide For Beginners To Advanced From Baby To Bad Ass",
+      "price": 10.25
+    },
+    {
+      "book_name": "Learn Data Structures And Algorithms With Golang: Level Up Your Go Programming Skills To Develop Faster And More Efficient Code",
+      "price": 10.95
+    },
+    {
+      "book_name": "Go Standard Library Cookbook: Over 120 Specific Ways To Make Full Use Of The Standard Library Components In Golang",
+      "price": 11.97
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "10:30",
+      "close": "15:15"
+    },
+    {
+      "day": "Tues",
+      "open": "7:15",
+      "close": "23:59"
+    },
+    {
+      "day": "Weds",
+      "open": "7:15",
+      "close": "23:59"
+    },
+    {
+      "day": "Weds",
+      "open": "00:00",
+      "close": "00:30"
+    },
+    {
+      "day": "Thurs",
+      "open": "00:00",
+      "close": "00:30"
+    },
+    {
+      "day": "Thurs",
+      "open": "6:45",
+      "close": "23:59"
+    },
+    {
+      "day": "Fri",
+      "open": "5:00",
+      "close": "23:30"
+    },
+    {
+      "day": "Sat",
+      "open": "5:30",
+      "close": "9:45"
+    },
+    {
+      "day": "Sun",
+      "open": "5:30",
+      "close": "9:45"
+    } 
+  ],
+  "": "Pick-a-Book"
+},
+{
+  "cash_balance": 940.01,
+  "books": [{
+      "book_name": "Framework Science",
+      "price": 12.47
+    },
+    {
+      "book_name": "Framework : A Developer's Handbook with Framework I",
+      "price": 10.36
+    },
+    {
+      "book_name": "Strategic Framework",
+      "price": 10.2
+    },
+    {
+      "book_name": "Net Framework",
+      "price": 10.63
+    },
+    {
+      "book_name": "Stripes (framework)",
+      "price": 10.56
+    },
+    {
+      "book_name": "Leonardi Framework",
+      "price": 12.54
+    },
+    {
+      "book_name": "Bistro Framework",
+      "price": 11.15
+    },
+    {
+      "book_name": "Science Framework",
+      "price": 12.21
+    },
+    {
+      "book_name": "Mogul Framework",
+      "price": 11.4
+    },
+    {
+      "book_name": "Framework Applications",
+      "price": 10.51
+    },
+    {
+      "book_name": "Javanet-framework",
+      "price": 10.3
+    },
+    {
+      "book_name": "Net Framework: Mono, Visual T Sharp, C Sharp, Framework .net, Microsoft .net, Visual Basic .net, Visual Studio",
+      "price": 11.84
+    }
+  ],
+  "opening_hours": [
+    {
+      "day": "Mon",
+      "open": "17:00",
+      "close": "23:59"
+    },
+    {
+      "day": "Tues",
+      "open": "00:00",
+      "close": "2:00"
+    },
+    {
+      "day": "Tues",
+      "open": "9:30",
+      "close": "20:00"
+    },
+    {
+      "day": "Weds",
+      "open": "9:30",
+      "close": "20:00"
+    },
+    {
+      "day": "Thurs",
+      "open": "8:15",
+      "close": "23:00"
+    },
+    {
+      "day": "Fri",
+      "open": "17:00",
+      "close": "22:15"
+    },
+    {
+      "day": "Sat",
+      "open": "5:30",
+      "close": "17:00"
+    },
+    {
+      "day": "Sun",
+      "open": "11:45",
+      "close": "18:00"
+    }
+  ],
+  "": "Bookland"
+}
+]
