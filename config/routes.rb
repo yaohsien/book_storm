@@ -12,6 +12,7 @@ Rails.application.routes.draw do
     namespace :book_store do
       get 'hello'
       get 'time'
+      get 'openhours'
     end
   end
 end

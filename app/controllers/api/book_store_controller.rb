@@ -9,4 +9,9 @@ class Api::BookStoreController < ApplicationController
     api_response(200, 'success', result)
   end
 
+  def openhours
+    result = Store.seach_openhours(params[:hours], params[:more_or_less], params[:timespan])
+
+    api_response(200, 'success', result)
+  end
 end

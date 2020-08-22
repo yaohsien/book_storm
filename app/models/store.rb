@@ -22,4 +22,41 @@ class Store < ApplicationRecord
     end
     result
   end
+
+  def self.seach_openhours(hours, more_or_less, time_span='day')
+    result = []
+
+    Store.all.each do |store|
+      if time_span == 'day'
+        store.open_times.each do |time|
+          diff = TimeDifference.between(time.start_time.to_datetime.strftime('%H:%M'), time.end_time.to_datetime.strftime('%H:%M')).in_hours
+          if ActiveModel::Type::Boolean.new.cast(more_or_less) == true && diff >= hours.to_i
+            result << store
+            break
+          end
+
+          if ActiveModel::Type::Boolean.new.cast(more_or_less) == false && diff < hours.to_i
+            result << store
+            break
+          end
+        end
+      elsif time_span == 'week'
+        count = 0
+
+        store.open_times.each do |time|
+          diff = TimeDifference.between(time.start_time.to_datetime, time.end_time.to_datetime).in_hours
+          count += diff
+        end
+
+        if ActiveModel::Type::Boolean.new.cast(more_or_less) == true && count >= hours.to_i
+          result << store 
+        end
+        
+        if ActiveModel::Type::Boolean.new.cast(more_or_less) == false && count < hours.to_i
+          result << store  
+        end
+      end
+    end
+    result
+  end
 end

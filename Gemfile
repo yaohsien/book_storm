@@ -8,6 +8,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
+gem 'time_difference'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
@@ -29,6 +30,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry-rails'
   gem 'pry'
+  gem 'pry-byebug'
 end
 
 group :development do
