@@ -6,5 +6,12 @@ Rails.application.routes.draw do
     post 'create_open_time'
     post 'create_user'
     post 'create_trans'
-  end 
+  end
+
+  namespace :api , defaults: { format: :json } do
+    namespace :book_store do
+      get 'hello'
+      get 'time'
+    end
+  end
 end
