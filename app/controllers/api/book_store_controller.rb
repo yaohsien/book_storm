@@ -4,7 +4,6 @@ class Api::BookStoreController < ApplicationController
   end
 
   def time
-    binding.pry
     result = Store.search_open(params[:datetime], params[:day], params[:time])
 
     api_response(200, 'success', result)
